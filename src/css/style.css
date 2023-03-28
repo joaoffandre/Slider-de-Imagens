@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 html{
     font-size:62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -11,21 +14,46 @@ body{
     height: 100%;
     background:url(../images/Background1.png) center/cover no-repeat;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap:2rem;
 }
 
 .caixa-texto{
     background-color: white;
     padding:5rem;
     max-width: 600px;
-    height: 600px;
+    height: 700px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+    position: absolute;
+    left:10%;
+}
+
+.caixa-texto h2{
+    font-weight:400 ;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.caixa-texto p{
+    font-weight: 300;
     font-size: 2.5rem;
 }
 
+.caixa-texto a{
+    font-weight: 700;
+    font-size: 3rem;
+    color: red;
+}
 
+.seta{
+    margin:4rem;
+    position: absolute;
+}
+
+.seta-direita{
+    right:0px;
+}
