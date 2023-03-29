@@ -1,3 +1,11 @@
 .seta-extrema{
     opacity:0.4;
 }
+
+.voltar{
+    display: none;
+}
+
+.passar{
+    display: flex;
+}

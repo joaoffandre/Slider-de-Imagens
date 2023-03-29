@@ -12,10 +12,25 @@ body{
 .fundo{
     position:relative;
     height: 100%;
-    background:url(../images/Background1.png) center/cover no-repeat;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.fundo1{
+    background:url(../images/Background1.png) center/cover no-repeat;
+}
+
+.fundo2{
+    background:url(../images/Background2.png) center/cover no-repeat;
+}
+
+.fundo3{
+    background:url(../images/Background3.png) center/cover no-repeat;
+}
+
+.fundo4{
+    background:url(../images/Background4.png) center/cover no-repeat;
 }
 
 .caixa-texto{
